@@ -38,6 +38,20 @@ class Home extends StatelessWidget {
         ),
         centerTitle: true,
       ),
+      body: Column(
+        children: [
+          Center(
+            child: Text(
+              "0",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
